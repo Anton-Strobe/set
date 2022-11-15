@@ -45,6 +45,22 @@ chars.forEach((element) => {
     }
 });
 console.log(uniqueChars);
+
+var count1 = ['44', '57', '78'];
+var count2 = ['78', '68', '6'];
+var count3 = 0;
+
+for (i = 0; i < count1.length; i++) {
+    for (j = 0; j < count2.length; j++) {
+        if (count1[i] == count2[j]) {
+            count3++;
+            document.write(count2[j]);
+            document.write(' - '); 
+        }    
+    }
+}
+
+document.write(count3);
     </script>
   </body>
 </html>
