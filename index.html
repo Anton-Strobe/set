@@ -1,51 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-
-<body>
-    <h1 style="text-align: center">
-        Использование Set
-    </h1>
+  </head>
+  <body>
+    <div>
+      2. Использование методов indexOf() и filter() Метод indexOf() возвращает
+      индекс первого вхождения элемента в массиве:
     </div>
     <div>
-        <pre>
-            При помощи Set() создается объект из уникальных значений.
-            Неявное использование этого объекта позволяет удалить дубликаты из массива.
-            
-            Мы можем воспользоваться этим методом, только нужно будет еще преобразовать Set
-            в новый массив. Выглядит это так:
-            
-           
-            <code>
-                let chars = ['A', 'B', 'A', 'C', 'B'];
-                let uniqueChars = [...new Set(chars)];
-                console.log(uniqueChars);
-            </code>
-          
-                     
-            
-
-            
-            Результат:
-
-            ['A', 'B', 'C']
-
-        </pre>
-
+        <br>
+        let chars = ['A', 'B', 'A', 'C', 'B'];
+chars.indexOf('B');
     </div>
-
-</body>
-
+    <script>
+        let chars = ['A', 'B', 'A', 'C', 'B'];
+chars.indexOf('B');
+    </script>
+  </body>
 </html>
-
-<script>
-    let chars = ['A', 'B', 'A', 'C', 'B'];
-    let uniqueChars = [...new Set(chars)];
-    console.log(uniqueChars);
-</script>
