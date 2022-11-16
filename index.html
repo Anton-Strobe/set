@@ -25,13 +25,13 @@ chars.forEach((element, index) => {
     console.log(`${element} - ${index} - ${chars.indexOf(element)}`);
 });
 
-let chars = ['A', 'B', 'A', 'C', 'B'];
-let uniqueChars = chars.filter((element, index) => {
-    return chars.indexOf(element) === index;
+let chars2 = ['A', 'B', 'A', 'C', 'B'];
+let uniqueChars1 = chars.filter((element, index) => {
+    return chars2.indexOf(element) === index;
 });
-console.log(uniqueChars);
+console.log(uniqueChars1);
 
-let chars = ['A', 'B', 'A', 'C', 'B'];
+let chars3 = ['A', 'B', 'A', 'C', 'B'];
 let dupChars = chars.filter((element, index) => {
     return chars.indexOf(element) !== index;
 });
